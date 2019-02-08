@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7db75fa8-0dd6-424d-8130-b79c37b04398" version="5">
+  <Properties>
+    <Name>Redesigned Colors and Icons (RCI)</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Updated Civ Colors for Clarity and Aesthetics</Teaser>
+    <Description>New color schemes for every civilization, for more variety, more historical accuracy, and more enjoyment. Replaces both the icons themselves and the colors of units and cities.
+
+It is recommended to use the direct download through Civfanatics, as this fixes the below bug and also allows the use of these changes without disabling achievements.
+
+Known Bugs: Whenever a game is created or loaded using this mod, the last civilization played in game will not recieve the updated icons, though the colors will update correctly. This is an annoying bug as it means loading the last game played will cause your own civ to lose its icons. I haven't been able to find a solution, besides using the direct installation noted above.</Description>
+    <Authors>dylansan</Authors>
+    <SpecialThanks>whoward69, jptrrs, Grabbl</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://https://forums.civfanatics.com/resources/redesigned-colors-and-icons-rci-v.24109/</Homepage>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="A73EA4EE67174607C5CBDC47770BA231" import="1">Icons/RciIconAtlas128.dds</File>
+    <File md5="DC5FE0D74B03D102AFD456F33725998D" import="1">Icons/RciIconAtlas256.dds</File>
+    <File md5="ADAD83F139E3671BDEAA1FF3E4181194" import="1">Icons/RciIconAtlas32.dds</File>
+    <File md5="DD0F37C3E4EBD656C2D37996D7C68BBE" import="1">Icons/RciIconAtlas45.dds</File>
+    <File md5="900CFDC23049720CE6C489F3B14F60C7" import="1">Icons/RciIconAtlas64.dds</File>
+    <File md5="9C4582D81261C2E42D08825C52AC27C6" import="1">Icons/RciIconAtlas80.dds</File>
+    <File md5="761863C7B1BA66E9B2D1643575E3D5A4" import="1">Icons/RciIconAtlasAlpha128.dds</File>
+    <File md5="AA108E466EBB2E1B019A79F43DF77874" import="1">Icons/RciIconAtlasAlpha16.dds</File>
+    <File md5="6C1193394212DD22A065DE15F7217E90" import="1">Icons/RciIconAtlasAlpha24.dds</File>
+    <File md5="0B98A98F8A2D1672FB92734BFFCFD987" import="1">Icons/RciIconAtlasAlpha32.dds</File>
+    <File md5="92E5842B12B412DE9CFB1D23400B9CA4" import="1">Icons/RciIconAtlasAlpha48.dds</File>
+    <File md5="77259FF05FFB6A0EDB477103811971A3" import="1">Icons/RciIconAtlasAlpha64.dds</File>
+    <File md5="45EBBBF0528C046DEA83FC000E417331" import="0">xml/RciAtlas.xml</File>
+    <File md5="843229BC16874641CC6AA33FF881F895" import="0">xml/RciColors.xml</File>
+    <File md5="3BFE63F09796145E87486A7FE692E6C5" import="0">xml/RciPlayerIcons.xml</File>
+    <File md5="6AB1FA43E59A2CD9EB969EB5DCD4859A" import="0">xml/RciPlayerColors.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>xml/RciColors.xml</UpdateDatabase>
+      <UpdateDatabase>xml/RciPlayerColors.xml</UpdateDatabase>
+      <UpdateDatabase>xml/RciPlayerIcons.xml</UpdateDatabase>
+      <UpdateDatabase>xml/RciAtlas.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

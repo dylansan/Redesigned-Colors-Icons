@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Civ5Package>
+  <GUID>{6DA07636-4123-4018-B643-6575B4EC336B}</GUID>
+  <SteamApp>235580</SteamApp>
+  <Version>1</Version>
+  <Priority>225</Priority>
+  <Key>bf6d34a0074b7ad4b1d1716475f7f7fe</Key>
+  <PTags>
+    <Tag>Version</Tag>
+  </PTags>
+  <Name>
+    <Value language="en_US">RCI</Value>
+  </Name>
+  <Description>
+    <Value language="en_US">Redesigned Colors and Icons</Value>
+  </Description>
+  <Gameplay>
+	<GameData>RciColors.xml</GameData>
+	<GameData>RciAtlas.xml</GameData>
+	<GameData>RciPlayerColors.xml</GameData>
+	<GameData>RciPlayerIcons.xml</GameData>
+  </Gameplay>
+</Civ5Package>

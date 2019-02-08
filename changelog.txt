@@ -1,0 +1,16 @@
+-- Changelog
+
+-------------------------------------------------------------------------------
+
+v 3.0		02-07-2019
+	Structural overhaul as DLC mod - RCI is now a much more compact and
+	standalone component, which should reduce compatibility problems.
+
+fixed:
+		- Last played civ has default icons instead of RCI's
+			(when installed	as a mod)
+		- "More Luxuries" incompatibility: tile improvements can't be built on
+			More Luxuries tiles (when installed as MPMPM DLC - this seemed to be
+			true of all MPMPM packs, not just RCI)
+		- Game crashes at Renaissance due to errors in Mongol data
+			(when installed by overwriting assets)
